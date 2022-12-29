@@ -13,6 +13,8 @@
 		59DEA9AD295D8498003CD0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DEA9AB295D8498003CD0F7 /* Main.storyboard */; };
 		59DEA9AF295D8499003CD0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59DEA9AE295D8499003CD0F7 /* Assets.xcassets */; };
 		59DEA9B2295D8499003CD0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59DEA9B0295D8499003CD0F7 /* LaunchScreen.storyboard */; };
+		59DEA9BB295D850D003CD0F7 /* on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59DEA9B9295D850D003CD0F7 /* on.jpg */; };
+		59DEA9BC295D850D003CD0F7 /* off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 59DEA9BA295D850D003CD0F7 /* off.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		59DEA9AE295D8499003CD0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59DEA9B1295D8499003CD0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59DEA9B3295D8499003CD0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59DEA9B9295D850D003CD0F7 /* on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = on.jpg; sourceTree = "<group>"; };
+		59DEA9BA295D850D003CD0F7 /* off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = off.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		59DEA9A4295D8498003CD0F7 /* ImageView */ = {
 			isa = PBXGroup;
 			children = (
+				59DEA9BA295D850D003CD0F7 /* off.jpg */,
+				59DEA9B9295D850D003CD0F7 /* on.jpg */,
 				59DEA9A5295D8498003CD0F7 /* AppDelegate.swift */,
 				59DEA9A7295D8498003CD0F7 /* SceneDelegate.swift */,
 				59DEA9A9295D8498003CD0F7 /* ViewController.swift */,
@@ -126,7 +132,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				59DEA9B2295D8499003CD0F7 /* LaunchScreen.storyboard in Resources */,
+				59DEA9BC295D850D003CD0F7 /* off.jpg in Resources */,
 				59DEA9AF295D8499003CD0F7 /* Assets.xcassets in Resources */,
+				59DEA9BB295D850D003CD0F7 /* on.jpg in Resources */,
 				59DEA9AD295D8498003CD0F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
